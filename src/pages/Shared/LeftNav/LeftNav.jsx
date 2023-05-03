@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import EditorsInsignt from '../../Home/EditorsInsignt/EditorsInsignt';
 
 const LeftNav = () => {
 
@@ -20,6 +21,7 @@ const LeftNav = () => {
                     </p>)
                 }
             </div>
+            <EditorsInsignt></EditorsInsignt>
         </div>
     );
 };
